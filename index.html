@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="ccsir">
+<title>中国不良资产研究中心</title>
+<link type="text/css" rel="stylesheet" href="./resources/css.css">
+<script src="./resources/jquery.js.下载" type="text/javascript"></script>
+<script type="text/javascript" src="./resources/jquery.SuperSlide.2.1.1.js.下载"></script>
+<script type="text/javascript" src="./resources/gototop.js.下载"></script>
+<script type="text/javascript" src="./resources/trunk8.js.下载"></script></head>
+
+<body>
+<!-- 头部     header -->
+
+
+
+<div id="header">
+  <div class="inner">
+      <div class="logo"><a href="index.html"><img src="./img/logo.png"></a></div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- 头部     header     END --> 
+
+<!-- 导航    nav -->
+
+<div id="nav">
+  <div class="inner">
+    <ul>
+      <li><a href="index.html">主页</a>  </li>
+      <li><a href="news.html">中心动态</a>      </li>
+      
+      <li class="border_li"><a href="about.html">关于我们</a>
+     </li>
+        
+    </ul>
+  </div>
+</div>
+
+<script>
+
+$(document).ready(function(){
+	$("#nav li ul").hide();
+	
+	$("#nav li").hover(function(){
+		$(this).find("ul").show();
+		},function(){
+			$(this).find("ul").hide();
+			})
+	
+	});
+
+//$("")选择器 DOM选择器
+
+</script>
+<!-- 导航    nav    END --> 
+
+<!--     main     -->
+<div id="main">
+  <div class="inner">
+  
+    <div class="main_left">
+      <div class="zxdt">
+     <h1>最新动态
+         <ul class="zxdt_ul"><li><a href="#">近期活动</a></li>|<li><a href="#">新闻资讯</a></li><div class="clear"></div></ul>
+         <div class="clear"></div>
+     </h1>
+         <img src="resources/1442391044801_BB.jpg" />
+          <div><p>中心在复旦大学管理学院常设秘书处，负责中心的日常管理和运行，理事单位可设立秘书联络处；参与合作研究：根据中心目标及任务，根据本机构的专业特长，推荐专业技术人员进入中心合作团队，参与中心合作项目研究和其他学术活动，并根据中心学科规划，设置专题合作研究平台；共享中心资源：理事单位，通过中心组织构架，共享学科建设、科学研究和教育培训资源，包括信息互联互通、联合组织学术交流、以及其他资源。2.理事单位的义务理事单位负有为中心科学研究、交流培训等方面提供政策支持以及相应物质保障的义务；理事单位负有根据中心常务理事会确定的研究要求，对参与中心工作的专业和管理人员，提供必备的办公场地和办公费用等服务义务。第四条 理事会1、组成及其任期研究中心实行理事会领导下的主任负责制，中心理事会设立常务理事会，常务理事会作为中心代表理事会的最高决策机构。常务理事会由不多于六名成员组成，每三年换届一次，可以连选连任，其成员包括研究中心实行理事会领导下的主任负责制，中心理事会设立常务理事会，常务理事会作为中心代表理事会的最高决策机构。</p></div>
+          
+     
+<script type="text/javascript">
+$(function(){
+  
+    function tabs(tabTit,on,tabCon){
+        $(tabTit).children().hover(function(){
+            $(this).addClass(on).siblings().removeClass(on);
+            var index = $(tabTit).children().index(this);
+           	$(tabCon).children().eq(index).show().siblings().hide();
+    	});
+	};
+    tabs(".zxdt_ul","active",".zxdt_ul2");
+});
+</script>
+</div>
+    
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<!--     main        END  --> 
+
+<!--    底部    footer    -->
+ <!-- 返回顶部 start -->
+        <div id="topcontrol" title="返回顶部"></div>
+<!-- 返回顶部 end -->
+
+<div id="footer">
+  <div class="footer_nav">
+    <div class="inner">
+      <ul class="footer_nav_up">
+        <li class="guanyu_left">关于CCSIR</li>
+        <li>中心动态 </li>
+        <li>联系我们</li>
+        <div class="clear"></div>
+      </ul>
+      <div class="footer_nav_down">
+        <ul>
+          <li><a href="about.html">中心简介</a></li>
+          <li><a href="about.html">使命目标</a></li>
+        </ul>
+        <ul class="footer_nav_down_ul7">
+          <li><a href="news.html">研究成果</a></li>
+        </ul>
+        <ul class="footer_nav_down_ul8">
+          <li><a href="news.html">职员信息</a></li>
+          <li><a href="news.html">招聘信息</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_down">
+    <p>版权所有：ccsir</p>
+  </div>
+</div>
+
+<!--      footer     END   -->
+  
+<!-- GOTOP -->
+<!--    
+<div id="code"></div>
+<a id="topcontrol" href="javascript:void(0)"><img src="/sites/images/fanhuidingbu_07.png" /></a>
+-->
+<!-- GOTOP -->
+
+
+
+<div id="topcontrol" title="返回顶部" style="position: fixed; bottom: 40px; right: 80px; opacity: 0; cursor: pointer;">
+<img src="./images/go_top_077.png" style="width:68px; height:150px">
+</div>
+
+</body>
+</html>
